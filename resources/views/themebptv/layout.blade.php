@@ -85,40 +85,11 @@
             window.location.href = randomMovieLink;
         }
     </script>
-    <script>
-        function goToNextEpisode() {
-            // Lấy URL hiện tại
-            var currentUrl = window.location.href;
-
-            // Tách số tập từ URL hiện tại
-            var episodeNumber = currentUrl.match(/tap-(\d+)/)[1];
-
-            // Tăng số tập lên 1 để chuyển đến tập tiếp theo
-            var nextEpisodeNumber = parseInt(episodeNumber) + 1;
-
-            // Tạo URL mới với số tập tiếp theo
-            var nextUrl = currentUrl.replace(/tap-\d+/, 'tap-' + nextEpisodeNumber);
-
-            // Chuyển đến URL tiếp theo
-            window.location.href = nextUrl;
-        }
-    </script>
 @endpush
 
 @section('body')
     <div class="Tp-Wp" id="Tp-Wp">
         @include('themes::themebptv.inc.header')
-        <div id="preload">
-            <div style="position: fixed;z-index: 1001;background-color: rgba(0,0,0,0.8);width: 100%;height: 100%;border: 0;padding: 0;top: 0;left: 0;">
-                <div style="left: 50%;top:50%;transform: translate(-50%, -50%);position: fixed;border: 8px solid rgba(0,0,0,0.5);border-radius: 4px;-webkit-border-radius: 4px;-moz-border-radius: 4px;z-index: 201;">
-                    <div style="position: relative;background: #666;">
-                        <a rel="nofollow" target="_blank" href="https://www.22i9bet.com/Register?a=714234"><img src="https://i.imgur.com/tRVF80k.jpeg" style="max-width: 375px;"></a>
-                        <!--<a rel="nofollow" target="_blank" href="https://phimmoii.tv/?utm_source=Animesub.org&utm_medium=banner"><img src="/ads/400.gif" style="max-width: 375px;"></a>-->
-                        <a rel="nofollow" href="javascript:void(0)" style="font-size: 15px;top:-35px;position: absolute;visibility: visible;right: 0px;font-weight: bold;display: inline-block;padding: 5px 10px;color: #FFF;background-color: rgba(0,0,0,0.7);border: .1px solid #FFF;" onclick="jQuery('#preload').fadeOut();";return false;">Đóng QC</a>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="Body Container">
             <div class="Content">
                 <div class="content">
