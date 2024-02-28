@@ -184,9 +184,6 @@
         })
     </script>
     <script type="text/javascript" src="{{ asset('/themes/bptv/js/bootstrap1.min.js') }}"></script>
-    <script src="/ads/monsub.js"></script>
-    <!--ADs monetag-->
-    <!--end ads-->
     {!! setting('site_scripts_google_analytics') !!}
 @endsection
 
