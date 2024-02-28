@@ -108,72 +108,7 @@
                 </div>
             </div>
         </div>
-       <footer class="Footer">
-    <div class="Container">
-        <div class="MnBrCn BgA">
-            <div class="MnBr EcBgA">
-                <div class="Container">
-                    <figure class="Logo">
-                        <a href="/" title="Xem anime online" rel="home">
-                            <img src="https://i.imgur.com/pYajOD4.png" alt="logo">
-                        </a>
-                    </figure>
-                    <div class="Rght">
-                        <nav class="Menu">
-                            <ul>
-                                <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-home menu-item-490">
-                                    <a href="/">XEM PHIM</a>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-493">
-                                    <a rel="nofollow"  href="/discord.html">Chat Anime/Discord</a>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-493">
-                                    <a rel="nofollow"  href="/thuat-ngu.html">THUẬT NGỮ</a>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-493">
-                                    <a rel="nofollow"  href="https://discord.com/invite/cFWrdat2rB">GROUP THẢO LUẬN</a>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-493">
-                                    <a rel="dofollow" target="_blank"  href="https://1motphim.com/">Motphim</a>
-                                </li>
-                            </ul>
-                        </nav>
-                        <ul class="ListSocial">
-                            <li>
-                                <a rel="nofollow"  target="_blank" href="https://www.facebook.com/animehay.fanpage/" class="fa fa-facebook"></a>
-                            </li>
-                            <li>
-                                <a rel="nofollow"  target="_blank" href="https://t.me/+B-Vh8f4e55VhMzg1" class="fa fa-telegram"></a>
-                            </li>
-                            <li>
-                                <a rel="nofollow"  target="_blank" href="#" class="fa-twitter"></a>
-                            </li>
-                            <li>
-                                <a rel="nofollow"  target="_blank" href="#" class="fa-youtube-play"></a>
-                            </li>
-                            <li>
-                                <a rel="nofollow"  href="#Tp-Wp" class="Up AAIco-arrow_upward"></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="WebDescription">
-            <p>
-            	<b><a href="https://1motphim.com/" target="_blank" rel="dofollow">Motphim</a></b>
-                <a href="http://www.kanefusafs.net/" rel="dofollow" target="_blank" title="Kanefusa Fansub">Kanefusa Fansub </a>&nbsp;
-                <a href="https://animesub.org/phim/dao-hai-tac-a1" target="_blank" title="One Piece - Đảo Hải Tặc" >One Piece, Vua Hải Tặc&nbsp;Đảo Hải Tặc</a>&nbsp;
-                <a href="https://animesub.org/phim/tham-tu-lung-danh-conan-r3-a3" target="_blank" title="Thám Tử Lừng Danh Conan" >Thám Tử Lừng Danh Conan</a>&nbsp;
-                <a href="/quoc-gia/trung-quoc"target="_blank"title="Hoạt Hình Trung Quốc">Hoạt Hình Trung Quốc</a>
-            </p>
-        </div>
-        <div class="WebDescription">Liên Hệ Quảng Cáo: <b>contact.animehay@gmail.com</b></div>
-        <p class="Copy">
-            <a target="_blank" href="https://animesub.org">© Copyright 2024 AnimeVietSub.TV. All rights reserved.</a>
-        </p>
-    </div>
-</footer>
+       @include('themes::themebptv.inc.footer')
     </div>
 @endsection
 
@@ -220,7 +155,6 @@
         })
     </script>
     <script type="text/javascript" src="{{ asset('/themes/bptv/js/bootstrap1.min.js') }}"></script>
-    <script src="/ads/monsub.js"></script>
     {!! setting('site_scripts_google_analytics') !!}
 @endsection
 
